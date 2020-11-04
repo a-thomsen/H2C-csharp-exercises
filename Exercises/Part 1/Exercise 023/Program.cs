@@ -15,9 +15,9 @@ namespace exercise_23
       double average = (first + second) / 2.0;
 
       Console.WriteLine(first " + " second " = " (first + second)"\n"
-      (first " - " second " = " (first - second)"\n"
-      (first " * " second " = " (first * second)"\n"
-      (first " / " second " = " average);
+      first " - " second " = " (first - second)"\n"
+      first " * " second " = " (first * second)"\n"
+      first " / " second " = " average);
     }
   }
 }
