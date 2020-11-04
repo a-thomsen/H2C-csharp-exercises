@@ -7,9 +7,9 @@ namespace exercise_13
     public static void Main(string[] args)
     {
       Console.Write("Give a double!");
-      double value = Console.ReadLine();
-      Console.Write("You gave " + value);
-
+      string userInput = Console.ReadLine();
+      double doubleValue = Convert.ToDouble(userInput);
+      Console.Write("You gave " + doubleValue);
     }
   }
 }
