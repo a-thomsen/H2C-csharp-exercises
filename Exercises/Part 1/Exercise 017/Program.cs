@@ -8,6 +8,16 @@ namespace exercise_17
     {
 
       Console.WriteLine("Give me a number!");
+
+
+
+
+
+
+
+
+
+      
       int first = Console.ReadLine();
       Console.WriteLine("Give me another number!");
       int second = Console.ReadLine();

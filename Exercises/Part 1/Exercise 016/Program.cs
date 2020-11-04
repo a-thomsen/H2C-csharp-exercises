@@ -8,7 +8,8 @@ namespace exercise_16
     {
 
       Console.WriteLine("How many days?");
-      int days = Console.ReadLine();
+      string userInput = Console.ReadLine();
+      int days = Convert.ToInt32(userInput);
       Console.WriteLine(days + " days is equal to " + (days*86400) + " seconds.");
     }
   }
