@@ -10,11 +10,11 @@ namespace exercise_32
       string input = Console.ReadLine();
       if("Mellon") 
       {
-        System.out.println("Welcome, friend");
+        Console.WriteLine("Welcome, friend");
       } 
       else 
       {
-        System.out.println("They've got a cave troll!");
+        Console.WriteLine("They've got a cave troll!");
       }
     }
   }
