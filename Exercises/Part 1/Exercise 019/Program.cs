@@ -13,7 +13,7 @@ namespace exercise_19
       Console.WriteLine("Give me another number!");
       string secondStr = Console.ReadLine();
       int second = Convert.ToInt32(secondStr);
-      Console.WriteLine(first " + " second " = " (first+second); 
+      Console.WriteLine(first " + " second " = " (first + second); 
     }
   }
 }
