@@ -8,19 +8,11 @@ namespace exercise_17
     {
 
       Console.WriteLine("Give me a number!");
-
-
-
-
-
-
-
-
-
-      
-      int first = Console.ReadLine();
+      string firstStr = Console.ReadLine();
+      int first = Convert.ToInt32(firstStr);
       Console.WriteLine("Give me another number!");
-      int second = Console.ReadLine();
+      string secondStr = Console.ReadLine();
+      int second = Convert.ToInt32(secondStr);
       Console.WriteLine("The sum of these numbers is " + (first + second));
     }
   }
