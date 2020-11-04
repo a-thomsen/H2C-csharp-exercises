@@ -6,9 +6,18 @@ namespace exercise_23
   {
     public static void Main(string[] args)
     {
+      Console.WriteLine("Give me a number!");
+      string firstStr = Console.ReadLine();
+      int first = Convert.ToInt32(firstStr);
+      Console.WriteLine("Give me another number!");
+      string secondStr = Console.ReadLine();
+      int second = Convert.ToInt32(secondStr);
+      double average = (first + second) / 2.0;
 
-      // Write your code here:
-
+      Console.WriteLine(first " + " second " = " (first + second)"\n"
+      (first " - " second " = " (first - second)"\n"
+      (first " * " second " = " (first * second)"\n"
+      (first " / " second " = " average);
     }
   }
 }
