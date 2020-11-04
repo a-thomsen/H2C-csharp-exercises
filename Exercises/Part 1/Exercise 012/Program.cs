@@ -6,7 +6,7 @@ namespace exercise_12
   {
     public static void Main(string[] args)
     {
-      Console.Write("Give a number!");
+      Console.Write("Give an integer!");
       int value = Console.ReadLine();
       Console.Write("You gave " + value);
     }
