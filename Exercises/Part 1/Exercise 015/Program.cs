@@ -8,7 +8,7 @@ namespace exercise_15
     {
 
       Console.WriteLine("Give a string: ");
-        string str = Console.ReadLine();
+        string userStr = Console.ReadLine();
       Console.WriteLine("Give an integer: ");
         string userInt = Console.ReadLine();
         int intValue = Convert.ToInt32(userInt);
@@ -18,7 +18,7 @@ namespace exercise_15
       Console.WriteLine("Give me the truth!");
         string userBool = Console.ReadLine();
         bool booleanValue = System.Convert.ToBoolean(userBool);
-      Console.WriteLine("Your string: " + str + "\n" +
+      Console.WriteLine("Your string: " + userStr + "\n" +
       "Your integer: " + intValue + "\n" +
       "Your double: " + doubleValue + "\n" +
       "Your boolean: " + booleanValue);
