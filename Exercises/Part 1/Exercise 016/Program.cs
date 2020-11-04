@@ -7,8 +7,9 @@ namespace exercise_16
     public static void Main(string[] args)
     {
 
-      // Write your code here:
-
+      Console.WriteLine("How many days?");
+      int days = Console.ReadLine();
+      Console.WriteLine(days + " days is equal to " + (days*86400) + " seconds.");
     }
   }
 }
