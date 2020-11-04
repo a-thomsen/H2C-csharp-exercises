@@ -6,8 +6,16 @@ namespace exercise_32
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
-
+      Console.Write("Speak, friend, and enter!");
+      string input = Console.ReadLine();
+      if("Mellon") 
+      {
+        System.out.println("Welcome, friend");
+      } 
+      else 
+      {
+        System.out.println("They've got a cave troll!");
+      }
     }
   }
 }
