@@ -19,8 +19,8 @@ namespace exercise_36
           Console.WriteLine("That is a negative");
           continue;
         }
-      Console.WriteLine("Your number raised in its second power is " + (number * number));
       }
+      Console.WriteLine("Your number raised in its second power is " + (number * number));
     }
   }
 }
