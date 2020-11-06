@@ -19,8 +19,8 @@ namespace exercise_37
         {
             sum = sum + 1;
         }
-        Console.WriteLine("Total amount of numbers: " + sum);
       }
+      Console.WriteLine("Total amount of numbers: " + sum);
     }  
   }
 }
