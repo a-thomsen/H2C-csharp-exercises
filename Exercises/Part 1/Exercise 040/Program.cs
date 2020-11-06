@@ -7,6 +7,7 @@ namespace exercise_40
     public static void Main(string[] args)
     {
       int sum = 0;
+      int amount = 0;
       while (true) 
       {
         Console.WriteLine("Give a number. With 0 you're gone for good!");
@@ -18,9 +19,11 @@ namespace exercise_40
         if  (number != 0)
         {
             sum = sum + number;
+            amount = amount + 1;
         }
       }
-      Console.WriteLine("Total amount of negative numbers: " + sum);
+      Console.WriteLine("Total sum of numbers: " + sum +"\n"
+      "Total amount of numbers: " + amount);      
     }
   }
 }

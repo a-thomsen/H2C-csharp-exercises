@@ -19,8 +19,8 @@ namespace exercise_38
         {
             sum = sum + 1;
         }
-        Console.WriteLine("Total amount of negative numbers: " + sum);
       }
+      Console.WriteLine("Total amount of negative numbers: " + sum);
     }
   }
 }
