@@ -6,8 +6,15 @@ namespace exercise_35
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
-
+      while (true) 
+      {
+        Console.WriteLine("Input an integer, 42 quits");
+        int number = Convert.ToInt32(Console.ReadLine());
+        if (number == 42) 
+        {
+          break;
+        }
+      }  
     }
   }
 }
