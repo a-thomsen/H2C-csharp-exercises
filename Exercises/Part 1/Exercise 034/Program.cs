@@ -6,15 +6,15 @@ namespace exercise_34
   {
     public static void Main(string[] args)
     {
-      while (true)
-      {
+      while(true)
+      {  
         Console.WriteLine("Do you want to continue?");
-        string answer = Console.ReadLine();
-        if (answer == "no")
+        string message = Console.ReadLine();
+        if (message == "no")
         {
           break;
         }
-      }
+      }     
     }
   }
 }
