@@ -15,11 +15,7 @@ namespace exercise_37
         {
             break;
         }
-        if  (number < 0)
-        {
-            sum = sum + 1;
-        }
-        if  (number > 0)
+        if  (number != 0)
         {
             sum = sum + 1;
         }
