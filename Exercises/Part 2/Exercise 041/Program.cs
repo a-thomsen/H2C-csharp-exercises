@@ -6,9 +6,12 @@ namespace exercise_41
   {
     public static void Main(string[] args)
     {
+      Console.WriteLine("Hit me with a number!");
+      int number = Convert.ToInt32(Console.ReadLine());
 
-      // Write your code here:
-      
+      int result = number * number;
+
+      Console.WriteLine("Your number in its second power is " + result);
     }
   }
 }
