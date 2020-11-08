@@ -6,9 +6,15 @@ namespace exercise_47
   {
     public static void Main(string[] args)
     {
+      Console.WriteLine("Where do you want to go?");
+      int end = Convert.ToInt32(Console.ReadLine());
+      Console.WriteLine("Where do you want to start from?");
+      int start = Convert.ToInt32(Console.ReadLine());
 
-      // Write your code here:
-      
+      for (int i = start; i <= end; i++)
+      {
+        Console.WriteLine(i);
+      }
     }
   }
 }
