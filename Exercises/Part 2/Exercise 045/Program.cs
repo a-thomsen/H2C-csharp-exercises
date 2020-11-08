@@ -12,7 +12,7 @@ namespace exercise_45
 
       for (int i = start; i <= end; i++)
       {
-        Console.WriteLine(number);
+        Console.WriteLine(i);
       }
     }
   }
