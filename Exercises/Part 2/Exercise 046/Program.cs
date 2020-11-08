@@ -7,8 +7,13 @@ namespace exercise_46
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+      int start = Convert.ToInt32(Console.ReadLine());
+      int end = 100;
 
+      for (int i = start; i <= end; i++)
+      {
+        Console.WriteLine(i);
+      }
     }
   }
 }
