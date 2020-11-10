@@ -31,7 +31,7 @@ namespace exercise_61
     {
       for (int i = 1; i <= size; i++)
       {
-        for (int x = 1; x <= i; x++)
+        for (int x = 1; x <= size-i; x++)
         {
           Console.Write(" ");
         }
@@ -45,10 +45,28 @@ namespace exercise_61
 
     public static void ChristmasTree(int height)
     {
-      for (int i = 0; i <= height; i++)
+      for (int i = 1; i <= height; i++)
       {
-        // Continue from here
+        for (int y = height-i; y >= 0; y--)
+        {
+          PrintSpaces(0);
+        }
+        for (int x = 1+(i-1)*2; x > 0; x--)
+        {
+          PrintStars(0);
+        }
+        Console.WriteLine("");
+      }
+
+      for (int z = 0; z <= 1; z++)
+      {
+        for (int a = 0; a <= height-2; a++)
+        {
+          Console.Write(" ");
+        }
+        Console.WriteLine("***");
       }
     }
   }
 }
+// NTS: Check the assignment fully, such a maze...
