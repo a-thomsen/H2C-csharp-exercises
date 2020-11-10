@@ -12,19 +12,13 @@ namespace exercise_53
       int den = Convert.ToInt32(Console.ReadLine());
 
       // Call your method here:
-      Division(num, den);
-      double div = Convert.ToDouble(Division);
-      Console.PrintLine("The result is " + div);
+      Console.WriteLine("The result is " + Division(num, den));
     }
 
     // Write your method here:
     public static void Division(int num, int den)
     {
-      int num = 1;
-      int den = 2;
-      int sum = num / den;
-
-      double div = Convert.ToDouble(sum);
+      Console.WriteLine(Convert.ToDouble(num / den));
     }
   }
 }
