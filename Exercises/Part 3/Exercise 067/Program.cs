@@ -17,7 +17,7 @@ namespace exercise_67
         }
         list.Add(input);
       }
-
+    Console.WriteLine("The first entered value is " list[0] " and last " list[list.Count-1]);
     }
   }
 }
