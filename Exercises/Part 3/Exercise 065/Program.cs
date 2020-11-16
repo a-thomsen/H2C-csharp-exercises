@@ -17,7 +17,7 @@ namespace exercise_65
         }
         list.Add(input);
       }
-
+      Console.PrintLine("The number of the values on the list is " + list.Count);
     }
   }
 }
