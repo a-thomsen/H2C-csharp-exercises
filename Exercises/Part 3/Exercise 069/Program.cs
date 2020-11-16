@@ -27,8 +27,7 @@ namespace exercise_69
       {
         Console.WriteLine(list[i]);
       }
-    
-      }  
-    }
+    }  
   }
 }
+
