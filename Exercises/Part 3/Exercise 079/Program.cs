@@ -22,9 +22,15 @@ namespace exercise_79
       int searching = Convert.ToInt32(Console.ReadLine());
 
       // Implement the search functionality here
-
+      if (array.Contains(searching))
+      {
+        Console.WriteLine(searching + " is at index " + array.IndexOf(array, searching));
+      }
+      else
+      {
+        Console.WriteLine(searching + " was not found.");
+      }
     }
-
   }
 }
 
