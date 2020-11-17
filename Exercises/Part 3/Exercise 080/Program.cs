@@ -13,12 +13,18 @@ namespace exercise_80
 
     }
 
-    public static int SumOfNumbersInArray(int[] numbers) {
+    public static int SumOfNumbersInArray(int[] numbers) 
+    {
+      int result = 0;
 
-      return 0;
+      foreach(int number in numbers)
+      {
+        result = result + number;
+      }
+
+      return result;
     }
-
   }
 }
-
+// Tried foreach instead of reg for loop
 
