@@ -10,14 +10,15 @@ namespace exercise_83
       Console.WriteLine("Give a word");
       string word = Console.ReadLine();
 
-      Console.WriteLine(word+word+word);
+      // Can be done with while-loop as well, check below
+      Console.Write(word+word+word);
 
     }
 
   }
 }
 
-// Could be done with a while loop as well:
+// While-loop option:
 // int repeat = 0;
 // while (repeat < 3){
 // Console.Write(word);
