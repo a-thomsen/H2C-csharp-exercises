@@ -7,10 +7,18 @@ namespace exercise_83
   {
     public static void Main(string[] args)
     {
+      Console.WriteLine("Give a word");
+      string word = Console.ReadLine();
 
+      Console.WriteLine(word+word+word);
 
     }
 
   }
 }
 
+// Could be done with a while loop as well:
+// int repeat = 0;
+// while (repeat < 3){
+// Console.Write(word);
+// repeat++; }
