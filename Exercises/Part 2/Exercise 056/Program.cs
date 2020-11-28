@@ -12,7 +12,7 @@ namespace exercise_56
     // Write your method here:
     public static string Word()
     {
-      Console.WriteLine("Genier er som tordenvejr: de går mod vinden, forfærder menneskene og renser luften")
+      Console.WriteLine("Genier er som tordenvejr: de går mod vinden, forfærder menneskene og renser luften");
     }
   }
 }
