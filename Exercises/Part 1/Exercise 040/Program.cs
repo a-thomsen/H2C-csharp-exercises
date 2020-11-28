@@ -22,7 +22,7 @@ namespace exercise_40
             amount = amount + 1;
         }
       }
-      Console.WriteLine("Total sum of numbers: " + sum +"\n"
+      Console.WriteLine("Total sum of numbers: " + sum +"\n"+
       "Total amount of numbers: " + amount);      
     }
   }
