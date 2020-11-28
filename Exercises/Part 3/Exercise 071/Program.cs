@@ -24,7 +24,7 @@ namespace exercise_71
       {
         if (list[i] == search)
         {
-          Console.WriteLine(search + " can be found at index " + i)
+          Console.WriteLine(search + " can be found at index " + i);
         }
       }
     }
