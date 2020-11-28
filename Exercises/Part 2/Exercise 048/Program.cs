@@ -33,7 +33,6 @@ namespace exercise_48
           continue;
         }
 
-
       sum += number;   
       amount++;
       }
