@@ -14,7 +14,7 @@ namespace exercise_91
       {
         string input = Console.ReadLine();
         
-        if(input === "")
+        if(input != "")
         {
           string[] userInput = input.Split(',');
           
@@ -35,5 +35,3 @@ namespace exercise_91
     }
   }
 }
-
-
