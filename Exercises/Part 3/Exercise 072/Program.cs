@@ -33,7 +33,7 @@ namespace exercise_72
       {
         if (list[i] == smallest)
         {
-          Console.WriteLine("Found at index: " + i)
+          Console.WriteLine("Found at index: " + i);
         }
       }
     }

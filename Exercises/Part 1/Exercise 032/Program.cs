@@ -6,9 +6,9 @@ namespace exercise_32
   {
     public static void Main(string[] args)
     {
-      Console.Write("Speak, friend, and enter!");
+      Console.WriteLine("Speak, friend, and enter!");
       string input = Console.ReadLine();
-      if("Mellon") 
+      if(input == "Mellon") 
       {
         Console.WriteLine("Welcome, friend");
       } 

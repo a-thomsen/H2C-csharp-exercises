@@ -6,7 +6,7 @@ namespace exercise_28
   {
     public static void Main(string[] args)
     {
-      Console.Write("How old are you?");
+      Console.WriteLine("How old are you?");
       string input = Console.ReadLine();
       int age = Convert.ToInt32(input);
       if (age >= 18) 

@@ -6,7 +6,6 @@ namespace exercise_48
   {
     public static void Main(string[] args)
     {
-
       Console.WriteLine("Write numbers: ");
       int sum = 0;
       int amount = 0;
@@ -34,12 +33,11 @@ namespace exercise_48
           continue;
         }
 
-
       sum += number;   
       amount++;
       }
-     Console.WriteLine("The sum of the numbers is " + sum +"\n"
-     "The total of numbers typed was " + amount + " and the average of them " + average +"\n"
+     Console.WriteLine("The sum of the numbers is " + sum +"\n"+
+     "The total of numbers typed was " + amount + " and the average of them " + average +"\n"+
      "Out of the numbers " + even + " were even, and " + odd + " were odd.");
     }
   }

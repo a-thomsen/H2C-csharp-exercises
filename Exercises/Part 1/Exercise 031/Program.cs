@@ -6,7 +6,7 @@ namespace exercise_31
   {
     public static void Main(string[] args)
     {
-      Console.Write("Give a number");
+      Console.WriteLine("Give a number");
       string input = Console.ReadLine();
       int number = Convert.ToInt32(input);
       if ((number % 2) == 0) 

@@ -6,10 +6,10 @@ namespace exercise_12
   {
     public static void Main(string[] args)
     {
-      Console.Write("Give an integer!");
+      Console.WriteLine("Give an integer!");
       string userInput = Console.ReadLine();
       int intValue = Convert.ToInt32(userInput);
-      Console.Write("You gave " + intValue);
+      Console.WriteLine("You gave " + intValue);
     }
   }
 }

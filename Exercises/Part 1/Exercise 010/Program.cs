@@ -6,7 +6,7 @@ namespace exercise_10
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("I will tell a story, but I need some information.\n"
+            Console.WriteLine("I will tell a story, but I need some information.\n"+
             "Give a name for main character: ");
             string name = Console.ReadLine();
             Console.WriteLine("Give the character a profession: ");

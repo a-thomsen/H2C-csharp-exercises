@@ -13,7 +13,6 @@ namespace exercise_84
       if (input == "true")
       {
         Console.WriteLine("You got it right!");
-        break;
       }
       else
       {

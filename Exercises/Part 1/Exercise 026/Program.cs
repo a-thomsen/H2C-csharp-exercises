@@ -6,7 +6,7 @@ namespace exercise_26
   {
     public static void Main(string[] args)
     {
-      Console.Write("Give your birth year");
+      Console.WriteLine("Give your birth year");
       string input = Console.ReadLine();
       int year = Convert.ToInt32(input);
       if (year < 1900) 

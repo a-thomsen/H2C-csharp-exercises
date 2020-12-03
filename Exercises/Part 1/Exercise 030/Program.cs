@@ -6,7 +6,7 @@ namespace exercise_30
   {
     public static void Main(string[] args)
     {
-      Console.Write("Fill in your grading percentage");
+      Console.WriteLine("Fill in your grading percentage");
       string input = Console.ReadLine();
       int grade = Convert.ToInt32(input);
       if (grade < 0) 

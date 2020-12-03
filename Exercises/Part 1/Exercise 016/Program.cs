@@ -6,7 +6,6 @@ namespace exercise_16
   {
     public static void Main(string[] args)
     {
-
       Console.WriteLine("How many days?");
       string userInput = Console.ReadLine();
       int days = Convert.ToInt32(userInput);

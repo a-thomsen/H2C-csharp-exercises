@@ -19,7 +19,7 @@ namespace exercise_70
       }
       int greatest = list[0];
 
-      for (int i = 0; i < list.Count, i++)
+      for (int i = 0; i < list.Count; i++)
       {
         int number = list[i];
         if (greatest < number)
