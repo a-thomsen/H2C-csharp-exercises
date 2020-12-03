@@ -13,7 +13,7 @@ namespace exercise_90
       {
         string input = Console.ReadLine();
               
-        if (input == "")
+        if (input === "")
         {
           string[] userInput = input.Split(',');
           int age = Convert.ToInt32(userInput[1]);
@@ -26,7 +26,6 @@ namespace exercise_90
             {
               break;
             }
-
           Console.WriteLine("The age of the oldest is " + oldest);
         }
       }
