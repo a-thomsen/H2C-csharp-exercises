@@ -7,38 +7,29 @@ namespace exercise_90
   {
     public static void Main(string[] args)
     {
-      // Ask user to enter name & age
-
+      int oldest = 0;
+        
       while (true)
       {
         string input = Console.ReadLine();
+              
         if (input == "")
         {
-          break;
-        }
-        string[] data = input.Split(",");
-      }
+          string[] userInput = input.Split(',');
+          int age = Convert.ToInt32(userInput[1]);
+                  
+            if (age > oldest)
+            {
+              oldest = age;
+            }
+            else
+            {
+              break;
+            }
 
-      // Compare ages to print the age of the oldest 
-
-      int oldest = Convert.ToInt32(data[1]);
-
-      for (int i = 0; i < data.Count; i++)
-      {
-        int age =  data[i];
-        if (oldest < age)
-        {
-          oldest = age;
+          Console.WriteLine("The age of the oldest is " + oldest);
         }
       }
-
-      // If empty line, break + print age of the oldest
-
-      Console.WriteLine("The age of the oldest is " + oldest);
-
     }
   }
 }
-
-
-
