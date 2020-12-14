@@ -14,7 +14,7 @@ namespace exercise_98
         this.quantity = quantity;
     }
     public void PrintProduct(){
-        Console.WriteLine(this.name + ": price " + this.price + ": " + this.quantity + " pcs"); 
+        Console.WriteLine($"{Name}: price {Price}: {Quantity} pcs");); 
     }
   }
 }
