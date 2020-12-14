@@ -15,6 +15,3 @@ namespace exercise_93
     }
   }
 }
-
-
-
