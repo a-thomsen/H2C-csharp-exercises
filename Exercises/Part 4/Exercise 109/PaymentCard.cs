@@ -26,13 +26,14 @@ namespace exercise_109
       }
     }
   public void AddMoney(double amount){
-      this.balance = this.balance + amount; 
 
-      if (this.balance <= 150){
-          return this.balance; 
+      if (this.balance + amount >= 150){
+          this.balance = 150;
+      } else if (amount < 0) {
+          return "Can not add negatives";  
       } else {
-          this.balance = 150; 
+          this.balance = this.balance + amount; 
       }
-  }  
+    }  
   }
 }
