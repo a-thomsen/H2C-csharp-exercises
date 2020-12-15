@@ -5,7 +5,7 @@ namespace exercise_102
   public class Gauge {
       public int value { get; set; }
 
-  public Gauge (int value){
+  public Gauge (){
      this.value = 0;
     }
 
