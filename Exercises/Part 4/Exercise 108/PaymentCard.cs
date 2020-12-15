@@ -14,14 +14,14 @@ namespace exercise_108
   public void EatLunch(){
       double lunch = 10.6;
 
-      if (this.balance >= 10.6){
+      if (this.balance >= lunch){
       this.balance = this.balance - lunch;
       }
     }
   public void DrinkCoffee(){
       double coffee = 2.0;
 
-      if (this.balance >= 2.0){
+      if (this.balance >= coffee){
       this.balance = this.balance - coffee;
       }
     }
