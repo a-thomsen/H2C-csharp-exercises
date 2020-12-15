@@ -33,7 +33,7 @@ namespace exercise_112
       for (int i = 0; i < programs.Count; i++) {
         
         if (programs[i].duration <= maxLimit) {
-          Console.WriteLine(program[i].ToString()); 
+          Console.WriteLine(programs[i].ToString()); 
         }
       }
     }
