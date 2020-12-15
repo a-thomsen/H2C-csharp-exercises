@@ -16,7 +16,7 @@ namespace exercise_102
     }
 
   public void Decrease(){
-      if (this.value => 0){
+      if (this.value >= 0){
           this.value--; 
       }
   }  
