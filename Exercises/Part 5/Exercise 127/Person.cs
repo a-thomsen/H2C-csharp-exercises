@@ -23,9 +23,7 @@ namespace exercise_127
     public override string ToString()
     {
       // MODIFY THE FOLLOWING:
-      return this.name;
-      
+      return this.name + " has a pet called " + this.pet.name + " and it's a " + this.pet.breed;
     }
-
   }
 }
