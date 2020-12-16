@@ -7,7 +7,6 @@ namespace exercise_118
   {
     public static void Main(string[] args)
     {
-      // Ask the user for the file name and print the content of the file
       Console.WriteLine("Name of the file:");
       string file = Console.ReadLine();
 
