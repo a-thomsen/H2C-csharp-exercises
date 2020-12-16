@@ -9,7 +9,6 @@ namespace exercise_122
     private string location;
     private int weight;
 
-    // CREATE YOUR CONSTRUCTORS HERE
     public Product(string name){
       this.name = name;
       this.location = "shelf";
