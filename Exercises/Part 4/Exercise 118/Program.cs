@@ -13,9 +13,11 @@ namespace exercise_118
 
       // DO NOT TOUCH THE CODE ABOVE!
       // implement reading the file here;
+      List<string> names = File.ReadAllLines(file).ToList();
       
-
-
+      foreach (string name in names){
+        Console.WriteLine(name); 
+      }
 
       // DO NOT TOUCH THE CODE BELOW!
       Console.WriteLine("");
