@@ -1,3 +1,5 @@
+using System; 
+
 namespace exercise_122
 {
   public class Product
