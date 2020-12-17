@@ -23,6 +23,9 @@ namespace exercise_133
       Money newMoney = new Money(/* Do something here*/);
       // create a new Money object that has the correct worth
 
+      newMoney.euros = this.euros + addition.euros;
+      newMoney.cents = this.cents + addition.cents;
+
       // return the new Money object
       return newMoney;
     }
@@ -32,6 +35,9 @@ namespace exercise_133
       Money newMoney = new Money(/* Do something here*/);
       // create a new Money object that has the correct worth
 
+      newMoney.euros = this.euros - decreaser.euros;
+      newMoney.cents = this.cents - decreaser.cents;
+      
       // return the new Money object
       return newMoney;
     }
@@ -54,3 +60,5 @@ namespace exercise_133
     }
   }
 }
+
+// Continue
