@@ -18,13 +18,21 @@ namespace exercise_130
     // BEGIN SOLUTION
     public override bool Equals(object compared)
     {
-      if (this.Book() == compared.Book()){
+      if (this.GetHashCode() == compared.GetHashCode()){
         return true;
       }
       else {
         return false; 
       }
     }
+
+    public override int GetHashCode()
+        {
+            string hash = this.name + this.publicationYear;
+            return hash.GetHashCode();
+        }
     // END SOLUTION
   }
 }
+
+// Not sure if the usage of GetHashCode was understood after scouting docs online... 
