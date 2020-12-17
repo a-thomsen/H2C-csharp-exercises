@@ -7,7 +7,6 @@ namespace exercise_110
   {
     public static void Main(string[] args)
     {
-      // IMPLEMENT YOUR CODE IN HERE!
       List<Item> items = new List<Item>();
 
       while (true)
@@ -28,7 +27,3 @@ namespace exercise_110
     }
   }
 }
-
-
-
-

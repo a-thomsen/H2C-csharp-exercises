@@ -7,8 +7,6 @@ namespace exercise_112
   {
     public static void Main(string[] args)
     {
-      // IMPLEMENT YOUR CODE IN HERE!
-
       List<TelevisionProgram> programs = new List<TelevisionProgram>();
       
       while (true)

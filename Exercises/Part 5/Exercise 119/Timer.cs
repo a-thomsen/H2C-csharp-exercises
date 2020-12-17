@@ -1,5 +1,4 @@
 using System;
-
 namespace exercise_119
 {
   public class Timer
