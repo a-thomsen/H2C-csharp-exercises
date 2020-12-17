@@ -28,16 +28,19 @@ namespace exercise_130
         // "The book is already on the list. Let's not add the same book again."
         // If the list Contains the book
 
+        for (int i = 0; i < books.Count; i++) {
+          if (books[i].Equals(book) == true) {
 
-
-
+            Console.WriteLine("The book is already on the list. Let's not add the same book again.");
+          }
+          else {
+            books.Add(book); 
+          }
+        }
         // END SOLUTION
       }
-
       // Don't alter the line below!
       Console.WriteLine("Thank you! Books added: " + books.Count);
-
     }
-
   }
 }
