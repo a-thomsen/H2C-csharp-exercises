@@ -18,8 +18,12 @@ namespace exercise_130
     // BEGIN SOLUTION
     public override bool Equals(object compared)
     {
-
-      return false;
+      if (this.Book() == compared.Book()){
+        return true;
+      }
+      else {
+        return false; 
+      }
     }
     // END SOLUTION
   }
