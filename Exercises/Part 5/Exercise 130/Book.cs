@@ -27,6 +27,4 @@ namespace exercise_130
     }
     // END SOLUTION
   }
-
-
 }
