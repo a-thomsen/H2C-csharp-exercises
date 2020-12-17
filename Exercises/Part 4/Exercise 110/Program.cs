@@ -21,7 +21,7 @@ namespace exercise_110
           }
       }  
         
-      for(int i < 0; i < items.Count; i++){
+      for(int i = 0; i < items.Count; i++) {
         Console.WriteLine(items[i].ToString());
       }
     }
