@@ -7,10 +7,11 @@ namespace exercise_117
   {
     public static void Main(string[] args)
     {
-      Console.WriteLine("Which file should have its contents printed?");
+      Console.WriteLine("Which file should have its contents printed? Insert file name inside quotation marks.");
       string input = Console.ReadLine();
 
-      Console.WriteLine(File.ReadAllText(""" + input + """);
+      string text = File.ReadAllText(input);
+      Console.WriteLine(text);
     }
   }
 }
